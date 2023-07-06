@@ -24,24 +24,65 @@ h1{
 }
 
 #enviar{
-    display: none;
     margin-left: 1%;
-    padding: 6px;
+    padding: 12px;
+    font-size: 16px;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #fff;
+    color: #000;
     
 }
 
+#enviar:hover {
+    background-color: rgb(211,78,223);
+}
+
 #nome-da-tarefa{
-    display: none;
     padding: 6px;
     margin-top: 1%;
+    font-size: 16px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
     
 }
 
 #header-button{
     display: block;
     margin-left: 43.6%;
-    margin-top: 0,5%;
+    margin-top: 5px;
     padding:6px ;
+    font-size: 16px;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#cancel-header-button {
+    display: block;
+    margin-left: 43.6%;
+    margin-top: 5px;
+    padding:6px;
+    font-size: 16px;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#header-button:hover {
+    background-color: rgb(211,78,223);
+}
+
+#cancel-header-button:hover {
+    background-color: rgb(211,78,223);
 }
 
 
