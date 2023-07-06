@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif;
+}
+
+
+body{
+    background: rgb(226,148,233);
+    background: linear-gradient(90deg, rgba(226,148,233,1) 40%, rgba(211,78,223,1) 55%, rgba(76,9,87,1) 85%);
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    margin-top: 15%; 
+}
+
+#tarefas{
+    display: none;
+    margin-left: 43.6%;
+    margin-top: 0,5%;
+}
+
+#enviar{
+    display: none;
+    margin-left: 1%;
+    padding: 6px;
+    
+}
+
+#nome-da-tarefa{
+    display: none;
+    padding: 6px;
+    margin-top: 1%;
+    
+}
+
+#header-button{
+    display: block;
+    margin-left: 43.6%;
+    margin-top: 0,5%;
+    padding:6px ;
+}
+
+
+
