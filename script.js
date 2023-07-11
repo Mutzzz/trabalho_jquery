@@ -9,8 +9,15 @@ $(document).ready(function() {
     })
 
 
-    $('#tarefas').on('submit', function(e){
-        e.preventDefault();
+    $('#tarefas').on('submit', function(e) {
+            e.preventDefault();
+            const novaTarefa = $('#nome-da-tarefa').val();
+            $('#tarefas').append(`<li class="lista">${novaTarefa}</li>`);
     })
+
+    $(document).on('click', '.lista', function() {
+        $(this).wrap('<strike>');
+    });
+    
 
 })
